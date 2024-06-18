@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms test HTML - The Web Developer Bootcamp 2024</title>
+</head>
+<body>
+    <h1>Race Registration!</h1>
+
+    <form action="/idk">
+        <p>
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="first" required>
+            <label for="second">Second Name</label>
+            <input type="text" name="second" id="second" required>
+        </p>
+        <p>Select a Race:</p>
+        <p>
+            <label for="5k">Fun Run 5K</label>
+            <input type="radio" name="5k" id="5k">
+            <label for="half">Half Maraton</label>
+            <input type="radio" name="half" id="half">
+            <label for="5k">Full Marathon</label>
+            <input type="radio" name="full" id="full">
+        </p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        <p>
+            <label for="age">Select Age Group:</label>
+            <select name="age" id="age">
+                <option value="-18">Under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </p>
+        <button>Register!</button>
+
+    </form>
+</body>
+</html>
